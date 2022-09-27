@@ -1,0 +1,200 @@
+.root{
+    -fx-background-color: #314882;
+}
+
+#postPane {
+    -fx-background-color: #314882;
+}
+
+#putPane {
+    -fx-background-color: #314882;
+}
+
+.label {
+    -fx-text-fill: #d4d4d4;
+    -fx-font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+    -fx-font-size: 16px;
+    -fx-font-weight: 500;
+}
+
+#postErrorVinLabel, #postErrorNameLabel, #postErrorMileageLabel, #postErrorRegistrationNumberLabel, #postErrorBodyTypeLabel, #postErrorColorLabel, #postErrorAccessoriesLabel {
+    -fx-text-fill: #ff5a5a;
+    -fx-font-size: 13px;
+    -fx-font-weight: 100;
+}
+
+#putErrorVinLabel, #putErrorNameLabel, #putErrorMileageLabel, #putErrorRegistrationNumberLabel, #putErrorBodyTypeLabel, #putErrorColorLabel, #putErrorAccessoriesLabel {
+    -fx-text-fill: #ff5a5a;
+    -fx-font-size: 13px;
+    -fx-font-weight: 100;
+}
+
+#postErrorFirstNameLabel, #postErrorLastNameLabel, #postErrorDateOfBirthLabel, #postErrorPositionLabel, #postErrorDateOfEmploymentLabel, #postErrorRatePerHourLabel {
+    -fx-text-fill: #ff5a5a;
+    -fx-font-size: 13px;
+    -fx-font-weight: 100;
+}
+
+#putErrorFirstNameLabel, #putErrorLastNameLabel, #putErrorDateOfBirthLabel, #putErrorPositionLabel, #putErrorDateOfEmploymentLabel, #putErrorRatePerHourLabel {
+    -fx-text-fill: #ff5a5a;
+    -fx-font-size: 13px;
+    -fx-font-weight: 100;
+}
+
+#postErrorEmailLabel, #postErrorContactNumberLabel, #postErrorBillingAddressLabel, #postErrorInstitutionNameLabel, #postErrorInstitutionAddressLabel {
+    -fx-text-fill: #ff5a5a;
+    -fx-font-size: 13px;
+    -fx-font-weight: 100;
+}
+
+#putErrorEmailLabel, #putErrorContactNumberLabel, #putErrorBillingAddressLabel, #putErrorInstitutionNameLabel, #putErrorInstitutionAddressLabel {
+    -fx-text-fill: #ff5a5a;
+    -fx-font-size: 13px;
+    -fx-font-weight: 100;
+}
+
+#postHeaderLabel, #putHeaderLabel {
+    -fx-background-color: #404347;
+}
+
+#increaseSalaryInfo1Label, #increaseSalaryInfo2Label {
+    -fx-font-size: 18px;
+    -fx-font-weight: 500;
+}
+
+#increaseSalaryInfo3Label, #increaseSalaryInfo4Label {
+    -fx-font-size: 12px;
+    -fx-font-weight: 400;
+}
+
+.button{
+    -fx-background-color: #404347;
+    -fx-background-radius: 2px;
+    -fx-border-radius: 2px;
+    -fx-border-color: #232629;
+    -fx-color: #FFFFFF;
+    -fx-font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+    -fx-font-size: 16px;
+    -fx-font-weight: 400;
+    -fx-text-fill: #FFFFFF;
+}
+
+.button:hover {
+    -fx-opacity: .75;
+}
+
+.button:active {
+    -fx-opacity: .50;
+}
+
+.text-field {
+    -fx-background-color: #404347;
+    -fx-background-radius: 0px;
+    -fx-border-radius: 2px;
+    -fx-border-color: #232629;
+
+    -fx-text-fill: #d4d4d4;
+    -fx-font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+    -fx-font-size: 14px;
+    -fx-font-weight: 400;
+}
+
+
+.date-picker {
+    -fx-background-color: #404347;
+}
+
+.date-picker .cell {
+    -fx-background-color: #404347;
+    -fx-text-fill: white;
+}
+
+
+.date-picker .cell:hover {
+    -fx-opacity: 0.5;
+}
+
+.date-picker-popup > .calendar-grid {
+    -fx-background-color: #404347;
+}
+
+.date-picker .arrow-button {
+    -fx-background-color: #404347;
+    -fx-background-radius: 0;
+}
+
+.date-picker .arrow-button:hover {
+    -fx-opacity: 0.5;
+}
+
+.date-picker .arrow-button .arrow {
+    -fx-background-color: white;
+}
+
+.date-picker-popup {
+    -fx-background-color: #404347;
+}
+
+.date-picker-popup .month-year-pane {
+    -fx-background-color: #404347;
+}
+
+.date-picker-popup .month-year-pane .label {
+    -fx-text-fill: white;
+}
+
+.date-picker-popup .week-number-cell {
+    -fx-text-fill: #919191;
+    -fx-background-color: #404347;
+}
+
+.date-picker-popup .day-name-cell {
+    -fx-text-fill: white;
+}
+
+.list-view {
+    -fx-background-color: #404347;
+}
+
+.list-cell {
+    -fx-background-color: #404347;
+    -fx-border-color: #232629;
+    -fx-text-fill: white;
+}
+
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+
+    -fx-background-color: #7a7a7a;
+    -fx-color: #232629;
+    -fx-table-cell-border-color:  white;
+}
+
+.list-cell:filled:hover {
+}
+
+.scroll-bar, .scroll-bar:focused {
+    -fx-background-color: #404347;
+    -fx-font-size: 11;
+}
+
+.scroll-bar .thumb:pressed {
+    -fx-opacity: 0.5;
+}
+
+.scroll-bar .track {
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #595959;
+}
+
+.scroll-pane .corner {
+    -fx-background-color: transparent;
+}
+
+.increment-button, .decrement-button {
+    -fx-background-color: #404347;
+    -fx-border-color: #404347;
+}
+
+

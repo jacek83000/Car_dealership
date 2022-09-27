@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.car_dealership.controllers.institutionalclient.InstitutionalClientGetController">
+   <children>
+      <Button fx:id="closeGetInstitutionalClientButton" layoutX="212.0" layoutY="500.0" mnemonicParsing="false" onAction="#closeGetInstitutionalClient" text="Zamknij">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Label layoutX="70.0" layoutY="120.0" prefHeight="40.0" prefWidth="180.0" text="Email:" />
+      <Label layoutX="70.0" layoutY="160.0" prefHeight="40.0" prefWidth="180.0" text="Numer kontaktowy:" />
+      <Label layoutX="70.0" layoutY="200.0" prefHeight="40.0" prefWidth="180.0" text="Nazwa insytucji:" />
+      <Label layoutX="70.0" layoutY="240.0" prefHeight="40.0" prefWidth="180.0" text="Adres insytucji:" />
+      <Label layoutX="70.0" layoutY="80.0" prefHeight="40.0" prefWidth="180.0" text="ID:" />
+      <Label fx:id="getEmailLabel" layoutX="250.0" layoutY="120.0" prefHeight="40.0" prefWidth="180.0" text="Label" />
+      <Label fx:id="getContactNumberLabel" layoutX="250.0" layoutY="160.0" prefHeight="40.0" prefWidth="180.0" text="Label" />
+      <Label fx:id="getInstitutionNameLabel" layoutX="250.0" layoutY="200.0" prefHeight="40.0" prefWidth="180.0" text="Label" />
+      <Label fx:id="getInstitutionAddressLabel" layoutX="250.0" layoutY="240.0" prefHeight="40.0" prefWidth="180.0" text="Label" />
+      <Label fx:id="getIdLabel" layoutX="250.0" layoutY="80.0" prefHeight="40.0" prefWidth="180.0" text="Label" />
+      <Label fx:id="getInstitutionalClientLabel" alignment="CENTER" layoutX="70.0" layoutY="40.0" prefHeight="40.0" prefWidth="360.0" text="Klient instytucjonalny" />
+      <Label layoutX="70.0" layoutY="280.0" prefHeight="40.0" prefWidth="180.0" text="Inna forma kontaktu:" />
+      <Label fx:id="getOtherFormOfContactLabel" layoutX="250.0" layoutY="280.0" prefHeight="40.0" prefWidth="180.0" text="Label" />
+   </children>
+</AnchorPane>

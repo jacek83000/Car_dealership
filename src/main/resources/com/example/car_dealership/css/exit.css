@@ -1,0 +1,43 @@
+.button{
+    -fx-background-color: #404347;
+    -fx-background-radius: 4px;
+    -fx-border-color: #232629;
+    -fx-border-radius: 4px;
+    -fx-color: #FFFFFF;
+    -fx-font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+    -fx-font-size: 16px;
+    -fx-font-weight: 400;
+    -fx-text-fill: #FFFFFF;
+}
+
+.button:hover {
+    -fx-opacity: .75;
+}
+
+.button:active {
+    -fx-opacity: .50;
+}
+
+
+.alertDialog{
+    -fx-background-color: #314882;
+}
+
+
+.alertDialog:header *.header-panel{
+    -fx-background-color: #1f3259;
+}
+
+.alertDialog:header *.header-panel .label{
+    -fx-text-fill: #d4d4d4;
+    -fx-font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+    -fx-font-size: 24px;
+    -fx-font-weight: 400;
+}
+
+.alertDialog > *.content.label {
+    -fx-text-fill: #d4d4d4;
+    -fx-font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+    -fx-font-size: 16px;
+    -fx-font-weight: 400;
+}

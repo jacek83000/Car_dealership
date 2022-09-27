@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="tableAndButtonsPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.car_dealership.controllers.employee.EmployeeMenuController">
+   <children>
+      <TableView fx:id="tableView" layoutX="150.0" layoutY="113.0" prefHeight="442.0" prefWidth="670.0">
+        <columns>
+          <TableColumn fx:id="firstName" text="Imię" />
+          <TableColumn fx:id="lastName" minWidth="15.0" text="Nazwisko" />
+            <TableColumn fx:id="dateOfBirth" prefWidth="110.0" text="Data urodzenia" />
+            <TableColumn fx:id="position" prefWidth="90.0" text="Stanowisko" />
+            <TableColumn fx:id="dateOfEmployment" prefWidth="130.0" text="Data zatrudnienia" />
+            <TableColumn fx:id="ratePerHour" prefWidth="130.0" text="Stawka za godzinę" />
+        </columns>
+      </TableView>
+      <Button fx:id="postButton" layoutX="279.0" layoutY="73.0" mnemonicParsing="false" onAction="#post" prefHeight="40.0" prefWidth="130.0" text="Dodaj" />
+      <Button fx:id="deleteButton" layoutX="409.0" layoutY="73.0" mnemonicParsing="false" onAction="#delete" prefHeight="40.0" prefWidth="130.0" text="Usuń" />
+      <Button fx:id="putButton" layoutX="539.0" layoutY="73.0" mnemonicParsing="false" onAction="#put" prefHeight="40.0" prefWidth="130.0" text="Edytuj" />
+      <MenuButton alignment="CENTER" layoutX="669.0" layoutY="73.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="150.0" text="Akcje">
+        <items>
+          <MenuItem fx:id="MenuItemSalaryIncrease" mnemonicParsing="false" onAction="#increaseSalary" text="Daj wszystkim pracownikom podwyżkę" />
+        </items>
+      </MenuButton>
+      <Button fx:id="getButton" layoutX="149.0" layoutY="73.0" mnemonicParsing="false" onAction="#get" prefHeight="40.0" prefWidth="130.0" text="Wyświetl" />
+      <AnchorPane fx:id="buttonsPane" prefHeight="600.0" prefWidth="150.0">
+         <children>
+            <Button fx:id="employeesButton" accessibleRole="TOGGLE_BUTTON" alignment="BASELINE_LEFT" disable="true" layoutY="197.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="150.0" text="Pracownicy" />
+            <MenuButton fx:id="clientsMenuButton" contentDisplay="CENTER" layoutY="257.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="150.0" text="Klienci">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#switchToIndividualClients" text="Klienci Indywidualni" />
+                  <MenuItem mnemonicParsing="false" onAction="#switchToInstitutionalClients" text="Klienci Instytucjonalni" />
+              </items>
+            </MenuButton>
+            <Button fx:id="carsButton" accessibleRole="TOGGLE_BUTTON" alignment="BASELINE_LEFT" layoutY="137.0" mnemonicParsing="false" onAction="#switchToCars" prefHeight="60.0" prefWidth="150.0" text="Samochody" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

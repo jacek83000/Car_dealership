@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.car_dealership.controllers.employee.EmployeeGetController">
+   <children>
+      <Button fx:id="closeGetEmployeeButton" layoutX="212.0" layoutY="500.0" mnemonicParsing="false" onAction="#closeGetEmployee" text="Zamknij">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Label layoutX="70.0" layoutY="120.0" prefHeight="40.0" prefWidth="180.0" text="Nazwisko:" />
+      <Label layoutX="70.0" layoutY="160.0" prefHeight="40.0" prefWidth="180.0" text="Data urodzenia:" />
+      <Label layoutX="70.0" layoutY="200.0" prefHeight="40.0" prefWidth="180.0" text="Wiek:" />
+      <Label layoutX="70.0" layoutY="240.0" prefHeight="40.0" prefWidth="180.0" text="Stanowisko:" />
+      <Label layoutX="70.0" layoutY="280.0" prefHeight="40.0" prefWidth="180.0" text="Data zatrudnienia:" />
+      <Label layoutX="70.0" layoutY="320.0" prefHeight="40.0" prefWidth="180.0" text="Stawka za godzinę:" />
+      <Label layoutX="70.0" layoutY="80.0" prefHeight="40.0" prefWidth="180.0" text="Imię:" />
+      <Label layoutX="70.0" layoutY="360.0" prefHeight="40.0" prefWidth="180.0" text="Miesięczne wynagrodzenie:" />
+      <Label fx:id="getLastNameLabel" layoutX="250.0" layoutY="120.0" prefHeight="40.0" prefWidth="180.0" text="Label" />
+      <Label fx:id="getDateOfBirthLabel" layoutX="250.0" layoutY="160.0" prefHeight="40.0" prefWidth="180.0" text="Label" />
+      <Label fx:id="getAgeLabel" layoutX="250.0" layoutY="200.0" prefHeight="40.0" prefWidth="180.0" text="Label" />
+      <Label fx:id="getPositionLabel" layoutX="250.0" layoutY="240.0" prefHeight="40.0" prefWidth="180.0" text="Label" />
+      <Label fx:id="getDateOfEmploymentLabel" layoutX="250.0" layoutY="280.0" prefHeight="40.0" prefWidth="180.0" text="Label" />
+      <Label fx:id="getRatePerHourLabel" layoutX="250.0" layoutY="320.0" prefHeight="40.0" prefWidth="180.0" text="Label" />
+      <Label fx:id="getFirstNameLabel" layoutX="250.0" layoutY="80.0" prefHeight="40.0" prefWidth="180.0" text="Label" />
+      <Label fx:id="getMonthlySalaryLabel" layoutX="250.0" layoutY="360.0" prefHeight="40.0" prefWidth="180.0" text="Label" />
+      <Label fx:id="getEmployeeLabel" alignment="CENTER" layoutX="70.0" layoutY="40.0" prefHeight="40.0" prefWidth="360.0" text="Pracownik" />
+   </children>
+</AnchorPane>

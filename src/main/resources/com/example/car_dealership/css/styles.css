@@ -1,0 +1,232 @@
+.root {
+    /*-fx-background-color: linear-gradient(to right bottom, #AF40FF, #5B42F3 50%,#00DDEB);*/
+    -fx-background-color: #314882;
+}
+
+#tableAndButtonsPane {
+    -fx-background-color: #314882;
+}
+
+#buttonsPane {
+    -fx-background-color: #1f3259;
+}
+
+
+
+
+#starttextlabel {
+    -fx-text-fill: #d4d4d4;
+    -fx-font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+    -fx-font-size: 20px;
+    -fx-font-weight: 400;
+}
+
+#startLabel {
+    -fx-text-fill: #d4d4d4;
+    -fx-font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+    -fx-font-size: 40px;
+    -fx-font-weight: 600;
+
+    -fx-background-color: #404347;
+}
+
+#carsButton {
+    -fx-background-color: #263d6e;
+    -fx-background-radius: 0px;
+    -fx-border-radius: 0px;
+    -fx-border-color: transparent;
+    -fx-color: #FFFFFF;
+    -fx-font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+    -fx-font-size: 16px;
+    -fx-font-weight: 400;
+    -fx-text-fill: #FFFFFF;
+}
+
+#employeesButton {
+    -fx-background-color: #263d6e;
+    -fx-background-radius: 0px;
+    -fx-border-radius: 0px;
+    -fx-border-color: transparent;
+    -fx-color: #FFFFFF;
+    -fx-font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+    -fx-font-size: 16px;
+    -fx-font-weight: 400;
+    -fx-text-fill: #FFFFFF;
+}
+
+.button {
+    -fx-background-color: #404347;
+    -fx-background-radius: 2px;
+    -fx-border-radius: 2px;
+    -fx-border-color: #232629;
+    -fx-color: #FFFFFF;
+    -fx-font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+    -fx-font-size: 16px;
+    -fx-font-weight: 400;
+    -fx-text-fill: #FFFFFF;
+}
+
+.button:hover {
+    -fx-opacity: .75;
+}
+
+.button:active {
+    -fx-opacity: .50;
+    /* -fx-background-color: #8a0000;*/
+}
+
+.context-menu {
+    -fx-background-color: #404347;
+}
+
+.menu-item .label {
+    -fx-text-fill: #FFFFFF;
+}
+
+.menu-item:focused {
+    -fx-background-color: #7a7a7a;
+}
+
+.menu-item:focused .label {
+    -fx-text-fill: #FFFFFF;
+}
+
+.menu-button .label {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+    -fx-font-size: 16px;
+    -fx-font-weight: 400;
+}
+
+.menu-button {
+    -fx-background-color: #404347;
+    -fx-background-radius: 4px;
+    -fx-border-color: #232629;
+    -fx-border-radius: 4px;
+}
+
+.menu-button:hover {
+    -fx-opacity: .75;
+}
+
+.menu-button:active {
+    -fx-opacity: .50;
+    /* -fx-background-color: #8a0000;*/
+}
+
+#clientsMenuButton .context-menu {
+    -fx-background-color: #263d6e;
+}
+
+#clientsMenuButton .menu-item .label {
+    -fx-text-fill: #FFFFFF;
+}
+
+#clientsMenuButton .menu-item:focused {
+    -fx-background-color: #35569c;
+}
+
+#clientsMenuButton .menu-item:focused .label {
+    -fx-text-fill: #FFFFFF;
+}
+
+#clientsMenuButton .label {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+    -fx-font-size: 16px;
+    -fx-font-weight: 400;
+}
+
+#clientsMenuButton {
+    -fx-background-color: #263d6e;
+    -fx-background-radius: 2px;
+    -fx-border-color: transparent;
+    -fx-border-radius: 2px;
+}
+
+#clientsMenuButton:hover {
+    -fx-opacity: .75;
+}
+
+#clientsMenuButton:active {
+    -fx-opacity: .50;
+    /* -fx-background-color: #8a0000;*/
+}
+
+.table-view {
+    -fx-background-color: #404347;
+}
+/*KRAWEDZ TABLICY*/
+.table-view:focused {
+    -fx-background-color: #404347;
+}
+
+.table-view .column-header-background .label {
+    /* -fx-background-color: linear-gradient(#131313 0%, #424141 100%);*/
+    -fx-color: #FFFFFF;
+    -fx-font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+    -fx-font-size: 14px;
+    -fx-font-weight: 600;
+    -fx-text-fill: #FFFFFF;
+}
+
+.table-view .column-header-background {
+    /* -fx-background-color: linear-gradient(#131313 0%, #424141 100%);*/
+    -fx-color: #232629;
+}
+
+
+.table-view .column-header {
+    -fx-background-color: #404347;
+}
+
+.table-view .filler {
+    -fx-background-color: #404347;
+}
+
+/*KOLUMNY WIERSZY I CZCIONKA*/
+.table-view .table-cell {
+    -fx-color: #232629;
+    -fx-font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+    -fx-font-size: 14px;
+    -fx-font-weight: 400;
+    -fx-text-fill: white;
+}
+/*1. KOLOR WIERSZY 2. KOLOR KRAWEDZI WIERSZY */
+.table-row-cell {
+    -fx-background-color: -fx-table-cell-border-color, #545454;
+    -fx-color: #232629;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: -fx-table-cell-border-color, #7a7a7a;
+    -fx-color: #232629;
+    -fx-table-cell-border-color:  white;
+}
+
+.scroll-bar, .scroll-bar:focused {
+    -fx-background-color: #404347;
+    -fx-font-size: 11;
+}
+
+.scroll-bar .thumb:pressed {
+    -fx-opacity: 0.5;
+}
+
+.scroll-bar .track {
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #595959;
+}
+
+.scroll-pane > .corner {
+    -fx-background-color: #404347;
+}
+
+.increment-button, .decrement-button {
+    -fx-background-color: #404347;
+    -fx-border-color: #404347;
+}
+
+

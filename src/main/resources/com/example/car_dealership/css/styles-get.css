@@ -1,0 +1,76 @@
+.root{
+    -fx-background-color: #314882;
+}
+
+.label {
+    -fx-text-fill: #d4d4d4;
+    -fx-font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+    -fx-font-size: 14px;
+    -fx-font-weight: 400;
+    -fx-padding: 8px;
+    -fx-background-color: #404347;
+    -fx-border-color: #232629;
+}
+
+#getEmployeeLabel {
+    -fx-font-size: 16px;
+    -fx-font-weight: 500;
+    -fx-padding: 0px;
+}
+
+.button{
+    -fx-background-color: #404347;
+    -fx-background-radius: 2px;
+    -fx-border-radius: 2px;
+    -fx-border-color: #232629;
+    -fx-color: #FFFFFF;
+    -fx-font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+    -fx-font-size: 16px;
+    -fx-font-weight: 400;
+    -fx-text-fill: #FFFFFF;
+}
+
+.button:hover {
+    -fx-opacity: .75;
+}
+
+.button:active {
+    -fx-opacity: .50;
+}
+
+.list-view {
+    -fx-background-color: #404347;
+}
+
+.list-cell {
+    -fx-background-color: #404347;
+    /*
+    */
+    -fx-border-color: #232629;
+    -fx-text-fill: #d4d4d4;
+}
+
+.scroll-bar, .scroll-bar:focused {
+    -fx-background-color: #404347;
+    -fx-font-size: 11;
+}
+
+.scroll-bar .thumb:pressed {
+    -fx-opacity: 0.5;
+}
+
+.scroll-bar .track {
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #595959;
+}
+
+.scroll-pane .corner {
+    -fx-background-color: transparent;
+}
+
+.increment-button, .decrement-button {
+    -fx-background-color: #404347;
+    -fx-border-color: #404347;
+}

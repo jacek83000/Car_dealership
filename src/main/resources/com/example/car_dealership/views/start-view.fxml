@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.car_dealership.controllers.StartController">
+   <children>
+      <Label fx:id="startLabel" alignment="CENTER" layoutX="202.0" layoutY="221.0" prefHeight="67.0" prefWidth="494.0" text="Salon Samochodowy" />
+      <Button fx:id="startButton" layoutX="416.0" layoutY="365.0" mnemonicParsing="false" onAction="#switchToEmployeeMenuView" prefHeight="26.0" prefWidth="66.0" text="Start" />
+      <Label fx:id="starttextlabel" alignment="CENTER" layoutX="273.0" layoutY="322.0" prefHeight="26.0" prefWidth="354.0" text="Wciśnij przycisk poniżej, aby zacząć:" />
+   </children>
+</AnchorPane>
